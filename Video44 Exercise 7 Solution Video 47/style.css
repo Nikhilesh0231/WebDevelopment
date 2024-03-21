@@ -1,0 +1,130 @@
+.logo {
+    background-color: black;
+}
+
+.logo img {
+
+    width: 160px;
+    height: 53px;
+}
+
+nav {
+    /* background-color: black; */
+    /* color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 35px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.end {
+    background-color: black;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    margin: 70px;
+    font-family: sans-serif ;
+}
+.first span {
+    font-size: 50px;
+}
+section span img{
+    width: 94px;
+    margin: 0 23px;
+}
+.first p{
+    width : 57vw;
+    font-size: 23px;
+    text-align: center;
+}
+.btn{
+    background-color: #00b6d1;
+    padding: 14px 17px ;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-weight: 700;
+    margin: 12px 0px ;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.green{
+    background-color: #5cb85c;
+}
+.flex{
+    display: flex;
+}
+.Small{
+    font-size: 1 5px;
+}
+.second{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 64vw;
+    margin: auto;
+}
+.item{
+    padding: 23px;
+    background-color: #f9f9f9;
+    border-radius: 8px ;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.download :nth-child(2){
+       font-size: 23px;
+}
+.download img{
+    padding: 0px 10px;
+}
+.download{
+    display: flex;
+    align-items : center;
+    gap: 10px ;
+    font-family:sans-serif;
+    margin-bottom: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 15px;
+}  
+@media screen and (max-width:945px) {
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 15px;
+}  
+}

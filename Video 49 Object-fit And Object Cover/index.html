@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Object Cover And Object Fit</title>
+    <style>
+        .container{
+            width: 466px;
+            height: 488px;
+            border: 2px solid black;
+            /* background-position: top right; */
+            background-position: center center;
+            /* background-color: azure; */
+            background-image: url(https://img.freepik.com/free-vector/decorative-golden-mandala-red-background_1035-25425.jpg?w=740&t=st=1706542942~exp=1706543542~hmac=d52e2164f731c90735a41925687eb0d0f626ac558c7e29b96eee685a91c63ae1);
+            /* It is used in case of image is smaller than size of the container it will start repeating itself so to stop that below wriitten code is used */
+            background-repeat: no-repeat;
+        }
+        img{
+            width: 466px;
+            height: 488px;
+            object-fit: cover;  /* It Cover The Entire Space */
+            object-fit: contain;
+            /* object-position: top right; */
+            /* object-position: top left; */
+            /* object-position: bottom right; */
+            object-position: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+            <!-- <img src="https://img.freepik.com/free-vector/decorative-golden-mandala-red-background_1035-25425.jpg?w=740&t=st=1706542942~exp=1706543542~hmac=d52e2164f731c90735a41925687eb0d0f626ac558c7e29b96eee685a91c63ae1" alt=""> -->
+    </div>
+</body>
+</html>

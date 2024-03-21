@@ -1,0 +1,30 @@
+.parent{
+    padding: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2b2b;
+}
+.card{
+    width: 200px;
+    height: 180px;
+    cursor: pointer;
+    background: linear-gradient(180deg,orange,rgb(249, 70, 100),rgb(244, 43, 244));
+    transition: all 0.3s;
+}
+.child-card{
+    width: 200px;
+    height: 180px;
+    background-color: #1a1a1a;  
+    transition: all 0.3s;
+}
+.card:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px #e9a318;
+}
+.card:hover .child-card
+{
+    scale: 0.95;
+    border-radius: 20px;
+}

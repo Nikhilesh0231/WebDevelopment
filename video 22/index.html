@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing</title>
+    <style> 
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    html{
+        font-size: 12px;
+    }
+    .box{
+        box-sizing: border-box;
+        border: 2px solid black ;
+        /* width: 1450px; */
+        width: 80vw;
+        margin: auto;
+        height: 10vh ;
+        background-color: azure;
+    }
+    .container{
+        box-sizing: border-box;
+        border: 2px solid black ;
+        /* width: 1450px; */
+        /* width: 80vw; */
+        min-height: 80vh;
+        margin:23px auto;
+        height:50vh;
+        background-color: azure;
+        font-size: 18px;
+    }
+    .container p{
+        /* font-size: 1.5em; */
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    .mycont{
+        box-sizing: border-box;
+        margin: 23px auto ;
+        /* background-color: red; */
+        color: rgb(26, 105, 6);
+    font-size: 22px ;
+    /* width: 100vmin; */
+    width: 80vw;
+    border: 2px solid red;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">This is a box.</div>
+    <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus excepturi ex ducimus asperiores a cupiditate ipsa, at nostrum fugiat repudiandae ab tempore sit cumque mollitia corrupti explicabo? In sed molestias veritatis, libero quaerat, ratione distinctio minus nobis modi eum similique sint quisquam cumque, odio dolorum explicabo aliquid laudantium eligendi? Sunt minima animi ratione aliquid quod eos optio harum, dicta ea magni quibusdam nostrum labore non deleniti? Tenetur vero, blanditiis accusantium illum aliquid atque dolorum cum nisi. Quidem laudantium error asperiores totam quibusdam cumque corrupti repellendus autem libero nulla.</p></div>
+    <div class="mycont">
+        I am Another container 
+    </div>
+</body>
+</html>

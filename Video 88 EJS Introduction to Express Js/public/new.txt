@@ -1,0 +1,27 @@
+express js is a frame work which work using node js to develop industrial level web applications 
+Why should we use express.
+Why nodemon.
+installing Express@4.
+Request Parameters and Queries.
+Static Files .
+
+
+
+as we know that when we create api for any page then not start itself so we had to restart it mannually which
+is very toxic to do so for that we can 
+
+install npm i --global nodemon     which helps in restart it again and again it self .
+to create a repository as npm project we initialize it as npm project npm init -y
+
+after initialize it creates a package.json with filled default Values 
+
+now we run nodemon main.js which restart it again and again and it run itself wit changes occur in the web page .while doing this 
+you have to check whether execution is local or global if it is local yhen you have to go to power shell and it as administration and Set -ExecutionPolicy RemoteSigned
+
+
+
+Since http package as limited capabilities we can not do alot with this so we use instead of it we can use Express js 
+
+
+
+to install express npm i express

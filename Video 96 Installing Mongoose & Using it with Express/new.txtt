@@ -1,0 +1,7 @@
+mongodb is a packacge we can use by insatlling it in our code editior by npm i mongodb
+
+
+
+but instead of this can use mongoose by installing it npm i mongoose
+
+by using this can coonect out express with mongo db and use our database 

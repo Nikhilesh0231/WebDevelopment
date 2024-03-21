@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS seclectors </title>
+    <style>
+        /* .box:first-child{
+            background-color: blue;
+        }
+        .box::first-line{
+        color: yellow;
+        }
+        .boxes *{
+            color: white;
+            border: 2px solid red;
+        }
+        p,a,.box, [data-color="primary"]{
+            padding: 45px;
+         } */
+         /* .box:nth-child(even){
+            background-color: red;
+         } */
+         /* .box:nth-child(odd){
+            background-color: red;
+         } */
+         /* .box:nth-last-child(1){
+            background-color: antiquewhite;
+         } */
+         /* .boxes::before{
+            content: "Nikhilesh Tiwari Says";
+         }
+         .boxes::after{
+            content: "Nikhilesh Tiwari bye";
+         } */
+         ::selection{
+            color: rgb(123, 209, 105);
+            background-color: antiquewhite;
+         }
+         .boxes::first-letter{
+            color: peru;
+            font-size: xx-large;
+         }
+         input::placeholder{
+            color:rgb(31, 108, 35) ;
+         }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary"class="box">
+            Hey I am a Box Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste veritatis ducimus, impedit id eligendi ipsam repellendus tenetur placeat nisi explicabo molestias voluptates rem iure magnam, quae voluptas cupiditate, doloremque ratione expedita tempora quos atque! Velit facilis atque veniam exercitationem eos id, aliquid ad expedita itaque minima, maiores unde dignissimos nemo rem porro dolores nulla dicta quia quaerat officiis. Ipsa obcaecati rerum cupiditate consectetur facere, distinctio corrupti incidunt impedit magnam doloribus eum accusamus .
+        </div>
+        <div class="box">
+            Hey I am a Box.
+        </div>
+        <div class="box">
+            Hey I am a Box.
+        </div>
+        <input type="text" placeholder="Type Your Name here">
+    </div>
+</body>
+</html>
